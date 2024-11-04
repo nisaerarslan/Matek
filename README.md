@@ -1,1 +1,1 @@
-# Matek
+# Matek for math teachers. 
