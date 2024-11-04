@@ -1,0 +1,78 @@
+@using Microsoft.AspNetCore.Mvc
+@using Microsoft.AspNetCore.Http
+@using System.Collections.Generic
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/todolist.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <form action="/Menu/OgrenciListesi" method="get">
+        <button id="next">
+            <i id="next"><</i>
+        </button>
+    </form>
+    <header>
+        <h1>Öğrenci Listesi</h1>
+    </header>
+    <form asp-action="/Menu/StudentList" method="post">
+        <div class="main-list">
+            <div class="inputs">
+                <label for="StudentName">Öğrenci Adı Soyadı </label>
+                <input type="text" id="StudentName" name="StudentName" class="todo-input" required />
+                
+                <label for="StudentNumber">Öğrenci Numarası </label>
+                <input type="number" id="StudentNumber" name="StudentNumber" class="todo-input" required />
+            </div>
+            <button class="todo-button" type="submit">
+                <i class="fas fa-plus-circle fa-lg"></i>
+            </button>
+        </div>
+    </form>
+
+
+    <div class="todo-container">
+        <h2>Eklenen Öğrenciler</h2>
+        <ul class="todo-list">
+            <div class="todo">
+                @if (ViewBag.Students != null)
+                {
+                    foreach (var studentObj in ViewBag.Students)
+                    {
+                        <li class="todo-item">
+                            @studentObj.StudentName
+                            (@studentObj.StudentNumber)
+                            <form action="/Menu/DeleteStudent" id="DeleteStudent" method="post" onsubmit="return confirm('silmek istediğinize emin misiniz?')">
+                                <input type="hidden" value="@studentObj.StudentId" name="id">
+                                <button type="submit" class="trash-btn">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </form>
+                        </li>
+                    }
+                }
+            </div>
+        </ul>
+    </div>
+
+    <!--script src="~/js/todolist.js"></script>-->
+
+</body>
+
+</html>

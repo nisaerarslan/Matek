@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Matek
+build_property.RootNamespace = Matek
+build_property.ProjectDir = C:\Users\ADMIN\source\repos\Antique\Matek\Matek\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\source\repos\Antique\Matek\Matek
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/AdamAsmaca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxBZGFtQXNtYWNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/BilimInsani.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxCaWxpbUluc2FuaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/Deneme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZW5lbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/Duygular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEdXlndWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/GeometrikCisim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxHZW9tZXRyaWtDaXNpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/HavaDurumu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxIYXZhRHVydW11LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/HesapMakinesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxIZXNhcE1ha2luZXNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/Liste.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxMaXN0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/NotEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxOb3RFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/OgrenciListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxPZ3JlbmNpTGlzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/Oyunlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxPeXVubGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxTdHVkZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/Menu/YaziTahtasi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxZYXppVGFodGFzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/Antique/Matek/Matek/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

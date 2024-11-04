@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATEK EĞİTİM</title>
+    <link rel="stylesheet" href="~/css/IlkSayfa.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/d755b7edb1.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class='bx bx-home-heart' onclick="goToPage('#Anasayfa')"></i><span>MATEK</span></a>
+        <nav class="navbar">
+            <button class="button" style="--i:1;" onclick="goToPage('#Anasayfa')">Ana Sayfa</button>
+            <button class="button" style="--i:2;" onclick="goToPage('#Hakkımızda')">Hakkımızda</button>
+            <button class="button" style="--i:3;" onclick="goToPage('#Takım')">Takım</button>
+            <button class="button" style="--i:3;" onclick="goToPage('#İletisim')">İletişim</button>
+            <button class="button" style="--i:4;" onclick="goToLoginPage()">Giriş</button>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.instagram.com/matekegitim/" style="--i:1;"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="../Home/Index#İletisim" style="--i:2;"><i class='bx bxs-envelope'></i></a>
+        </div>
+    </header>
+    <section id="Anasayfa" class="home">
+        <div class="home-content">
+            <h1> MATEK</h1>
+            <p>
+                Ortaokul öğrencilerine matematik dersini sevdirecek ve eğlendirici hale getirecek (yerli ve milli) web uygulaması 
+            </p>
+            <a href="#" class="btn" onclick="goToLoginPage()">GİRİŞ YAP</a>
+        </div>
+        <div class="home-img">
+            <div class="rhombus">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+        </div>
+        <div class="rhombus2"></div>
+    </section>
+
+    <section id="Hakkımızda" class="hak">
+        <div class="hak-bir">
+            <h2>HAKKIMIZDA</h2>
+            <p>
+                Ortaokul öğrencilerine matematik dersini sevdirecek ve<br> eğlendirici hale getirecek (yerli ve milli) web uygulaması 
+            </p>
+        </div>
+        <div class="hak-img"></div>
+        <div class="blob">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(255, 95, 109);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(255, 195, 113);"></stop>
+                    </linearGradient>
+                </defs>
+                <path fill="url(#gradient)">
+                    <animate attributeName="d"
+                    dur="10000ms"
+                    repeatCount="indefinite"
+
+                    values="M451.5,299Q420,348,383.5,383Q347,418,298.5,441.5Q250,465,198,447.5Q146,430,111,390Q76,350,44.5,300Q13,250,47.5,201.5Q82,153,111.5,107.5Q141,62,195.5,57Q250,52,297,69.5Q344,87,392.5,113.5Q441,140,462,195Q483,250,451.5,299Z;
+                            M455.5,306Q444,362,400,398Q356,434,303,456.5Q250,479,202,448Q154,417,104,390Q54,363,48.5,306.5Q43,250,52,195.5Q61,141,99.5,98.5Q138,56,194,59.5Q250,63,308,56.5Q366,50,394.5,100Q423,150,445,200Q467,250,455.5,306Z;
+                            M471,306.5Q445,363,401.5,400Q358,437,304,452.5Q250,468,203,440.5Q156,413,100.5,391Q45,369,52.5,309.5Q60,250,73.5,203Q87,156,123,124.5Q159,93,204.5,55.5Q250,18,311,28Q372,38,415,84Q458,130,477.5,190Q497,250,471,306.5Z;
+                            M438,300Q422,350,385.5,386Q349,422,299.5,451Q250,480,193.5,462.5Q137,445,104,399Q71,353,39,301.5Q7,250,37.5,197.5Q68,145,97,89.5Q126,34,188,18.5Q250,3,300,40Q350,77,389,112Q428,147,441,198.5Q454,250,438,300Z;
+                            M459.5,309.5Q456,369,402,394.5Q348,420,299,459Q250,498,198.5,463.5Q147,429,94.5,399.5Q42,370,40,310Q38,250,62.5,203Q87,156,119,117.5Q151,79,200.5,53.5Q250,28,312,31.5Q374,35,394.5,95Q415,155,439,202.5Q463,250,459.5,309.5Z;
+                            M451.5,299Q420,348,383.5,383Q347,418,298.5,441.5Q250,465,198,447.5Q146,430,111,390Q76,350,44.5,300Q13,250,47.5,201.5Q82,153,111.5,107.5Q141,62,195.5,57Q250,52,297,69.5Q344,87,392.5,113.5Q441,140,462,195Q483,250,451.5,299Z"></animate>
+                </path>
+            </svg>
+        </div>
+        <!-- Adding Glow Effect to blob    -->
+        <div class="blob1">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(72, 140, 250);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(255, 195, 113);"></stop>
+                    </linearGradient>
+                </defs>
+                <path fill="url(#gradient)">
+                    <animate attributeName="d"
+                             dur="10000ms"
+                             repeatCount="indefinite"
+
+                             values="M451.5,299Q420,348,383.5,383Q347,418,298.5,441.5Q250,465,198,447.5Q146,430,111,390Q76,350,44.5,300Q13,250,47.5,201.5Q82,153,111.5,107.5Q141,62,195.5,57Q250,52,297,69.5Q344,87,392.5,113.5Q441,140,462,195Q483,250,451.5,299Z;
+                            M455.5,306Q444,362,400,398Q356,434,303,456.5Q250,479,202,448Q154,417,104,390Q54,363,48.5,306.5Q43,250,52,195.5Q61,141,99.5,98.5Q138,56,194,59.5Q250,63,308,56.5Q366,50,394.5,100Q423,150,445,200Q467,250,455.5,306Z;
+                            M471,306.5Q445,363,401.5,400Q358,437,304,452.5Q250,468,203,440.5Q156,413,100.5,391Q45,369,52.5,309.5Q60,250,73.5,203Q87,156,123,124.5Q159,93,204.5,55.5Q250,18,311,28Q372,38,415,84Q458,130,477.5,190Q497,250,471,306.5Z;
+                            M438,300Q422,350,385.5,386Q349,422,299.5,451Q250,480,193.5,462.5Q137,445,104,399Q71,353,39,301.5Q7,250,37.5,197.5Q68,145,97,89.5Q126,34,188,18.5Q250,3,300,40Q350,77,389,112Q428,147,441,198.5Q454,250,438,300Z;
+                            M459.5,309.5Q456,369,402,394.5Q348,420,299,459Q250,498,198.5,463.5Q147,429,94.5,399.5Q42,370,40,310Q38,250,62.5,203Q87,156,119,117.5Q151,79,200.5,53.5Q250,28,312,31.5Q374,35,394.5,95Q415,155,439,202.5Q463,250,459.5,309.5Z;
+                            M451.5,299Q420,348,383.5,383Q347,418,298.5,441.5Q250,465,198,447.5Q146,430,111,390Q76,350,44.5,300Q13,250,47.5,201.5Q82,153,111.5,107.5Q141,62,195.5,57Q250,52,297,69.5Q344,87,392.5,113.5Q441,140,462,195Q483,250,451.5,299Z"></animate>
+                </path>
+            </svg>
+        </div>
+        
+    </section>
+
+    <section id="Takım" class="tak">
+        <div class="container">
+            <h2 class="heading"><span>MATEK/</span>TAKIM</h2>
+            <div class="profiles">
+                <div class="profile">
+                    <img src="../img/pp1.png" class="profile-img">
+                    <h4 class="user-name">Betül Rüveyda</h4>
+                    <h3>MERT</h3>
+                    <p><u>Eğitim Bilgileri:</u><br>
+                        Gazi Üniversitesi Matematik<br>
+                        Atatürk Üniversitesi Bilgisayar Programcılığı
+                    </p>
+                </div>
+                <div class="profile">
+                    <img src="../img/pp2.png" class="profile-img">
+                    <h4 class="user-name">Elif Sena</h4>
+                    <h3>SAĞIRLI</h3>
+                    <p><u>Eğitim Bilgileri:</u><br>
+                        Gazi Üniversitesi Matematik öğrencisi</p>
+                </div>
+                <div class="profile">
+                    <img src="../img/pp.png" class="profile-img">
+                    <h4 class="user-name">Büşra Sinem</h4>
+                    <h3>ÖZKAYA</h3>
+                    <p><u>Eğitim Bilgileri:</u><br>
+                        Gazi Üniversitesi Matematik öğrencisi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="İletisim" class="ilet">
+        <div class="ilet-bir">
+        <h2>İLETİŞİM</h2>
+        <p>
+            Bize ulaşmak için aşağıdaki iletişim bilgilerini kullanabilirsiniz.<br>
+            İstek, öneri veya sorularınız için bizimle iletişime geçmekten çekinmeyin.
+        </p>
+        <p style="text-decoration:underline;">Matekegitim@gmail.com</p>
+    </div>
+    </section>
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+
+        <ul class="menu">
+            <li><a onclick="goToPage('/Home/Index#Anasayfa')">Ana Sayfa</a></li>
+            <li><a onclick="goToPage('/Home/Index#Hakkımızda')">Hakkımızda</a></li>
+            <li><a onclick="goToPage('/Home/Index#Takım')">Takım</a></li>
+            <li><a onclick="goToPage('/Home/Index#İletisim')">İletişim</a></li>
+        </ul>
+
+        <p>© MATEK</p>
+
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="~/js/script.js"></script>
+
+    <script>
+        function goToLoginPage() {
+            window.location.href = '/User/Login'; // Yönlendirilecek sayfanın adını buraya ekleyin
+        }
+    </script> 
+    
+</body>
+
+</html>

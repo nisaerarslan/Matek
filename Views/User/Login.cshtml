@@ -1,0 +1,123 @@
+@{
+    ViewData["Title"] = "Login";
+}
+@model AllViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATEK EĞİTİM</title>
+    <link rel="stylesheet" href="~/css/kayit-giris.css">
+    <link rel="stylesheet" href="~/css/IlkSayfa.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/d755b7edb1.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class='bx bx-home-heart' onclick="goToPage('#Anasayfa')"></i><span>MATEK</span></a>
+        <nav class="navbar">
+            <button class="button" style="--i:1;" onclick="goToIlkSayfaPage('/Home/Index#Anasayfa')">Ana Sayfa</button>
+            <button class="button" style="--i:2;" onclick="goToIlkSayfaPage('/Home/Index#Hakkımızda')">Hakkımızda</button>
+            <button class="button" style="--i:3;" onclick="goToIlkSayfaPage('/Home/Index#Takım')">Takım</button>
+            <button class="button" style="--i:3;" onclick="goToIlkSayfaPage('/Home/Index#İletisim')">İletişim</button>
+            <button class="button" style="--i:4;" onclick="goToLoginPage()">Giriş</button>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.instagram.com/matekegitim/" style="--i:1;"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="../Home/Index#İletisim" style="--i:2;"><i class='bx bxs-envelope'></i></a>
+        </div>
+    </header>
+    <section id="Anasayfa" class="home">
+       <div class="main">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Giriş Yap</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Kayıt Ol</button>
+                </div>
+                <form action="/User/Login" id="Login" method="post" class="input-group">                    
+                    <div asp-validation-summary="ModelOnly" style="color: red;"></div>
+                    <label asp-for="Email"></label>
+                    <input type="email" name="Email" class="input-field" placeholder="Email" required>
+                    <span asp-validation-for="Email" style="color: red;"></span>
+
+                    <label asp-for="Password"></label>
+                    <input type="password" name="Password" class="input-field" placeholder="Şifre" required>
+                    <span asp-validation-for="Password" style="color: red;"></span>
+
+                    <button type="submit" class="submit-btn">GİRİŞ YAP</button>
+                </form>
+
+                <form action="/User/Register" id="Register" method="post" class="input-group">
+                    <div asp-validation-summary="ModelOnly" style="color: red;"></div>
+                    <label asp_for="TeacherName"></label>
+                    <input type="text" name="TeacherName" class="input-field" placeholder="Kullanıcı Adı" required>
+                    <span asp-validation-for = "TeacherName" style="color: red;"></span>
+
+                    <label asp_for="Name"></label>
+                    <input type="text" name="Name" class="input-field" placeholder="İsim Soyisim" required>
+                    <span asp-validation-for = "Name" style="color: red;"></span>
+                    
+                    <label asp_for="Email"></label>
+                    <input type="email" name="Email" class="input-field" placeholder="Email" required>
+                    <span asp-validation-for = "Email" style="color: red;"></span>
+
+                    <label asp_for="Password"></label>
+                    <input type="password" name="Password" class="input-field" placeholder="Şifre" required>
+                    <span asp-validation-for = "Password" style="color: red;"></span>
+
+                    <button type="submit" class="submit-btn">KAYIT OL</button>
+                </form>
+                
+            </div>
+            <script>
+                var loginForm = document.getElementById("Login");
+                var registerForm = document.getElementById("Register");
+                var toggleBtn = document.getElementById("btn");
+                var formBox = document.querySelector(".form-box");
+                
+                function register() { 
+                    loginForm.style.left = "-400px";
+                    registerForm.style.left = "50px";
+                    toggleBtn.style.left = "110px";
+                    formBox.style.height = "620px"; // form-box yüksekliği register olduğunda 700px olacak
+                }
+            
+                function login() { 
+                    loginForm.style.left = "50px";
+                    registerForm.style.left = "450px";
+                    toggleBtn.style.left = "0px";
+                    formBox.style.height = "480px"; // form-box yüksekliği login olduğunda tekrar 480px olacak
+                }
+            </script>
+        </div>
+        <div class="home-img">
+            <div class="rhombus">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+        </div>
+        <div class="rhombus2"></div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="~/js/script.js"></script>
+
+    <script>
+        function goToLoginPage() {
+            window.location.href = '/User/Login'; // Yönlendirilecek sayfanın adını buraya ekleyin
+        }
+        function goToIlkSayfaPage(page) {
+            window.location.href = page;
+        }
+
+    </script>
+    
+    
+</body>
+
+</html>

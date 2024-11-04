@@ -1,0 +1,128 @@
+@{
+  ViewBag.Title = "Index";
+  var profileImageSrc = !string.IsNullOrEmpty(ViewBag.ProfileImage) ? Url.Content($"~/img/{ViewBag.ProfileImage}") : Url.Content("~/img/default.png");
+}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Side Dashboard Template With Sub Menu</title>
+  <link rel="stylesheet" href="~/css/menu.css">
+  <script src="Calendar.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+  <!--wrapper start-->
+  <div class="wrapper">
+    <!--header menu start-->
+    <div class="header">
+      <div class="header-menu">
+        <div class="title">MA<span>TEK</span></div>
+        <div class="sidebar-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+          <li id="turkey-time" style="font-size: 27px; color: white; padding-right: 10px;"></li>
+          <li><a href="/user/logout"><i class="fas fa-power-off"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--header menu end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+      <div class="sidebar-menu">
+        <center class="profile">
+          @if (!string.IsNullOrEmpty(ViewBag.ProfileImage))
+          {
+              <img src="@profileImageSrc" style="width: 100px; height: 100px; object-fit: contain;"/>
+          }
+          
+          <!--<img src="profileImageSrc" alt="">-->
+          <p>@User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value</p>
+        </center>
+        <li class="item" id="profile">
+          <a href="#profile" class="menu-btn" onclick="goToProfilePage()">
+            <i class="fas fa-user-circle"></i><span>Profil</span>
+          </a>
+        </li>
+        <li class="item" id="categories">
+          <a href="#categories" class="menu-btn" onclick="goToCatogoryPage()">
+            <i class="fas fa-solid fa-list"></i><span>Kategoriler</span>
+          </a>
+        </li>
+        <li class="item" id="weather">
+          <a href="#weather" class="menu-btn" onclick="goToWeatherPage()">
+            <i class="fas fa-solid fa-cloud"></i><span>Hava Durumu</span>
+          </a>
+        </li>
+      </div>
+
+      <div class="sidebar-date">
+        <span id="current-date"></span>
+      </div>
+
+    </div>
+    <!--sidebar end-->
+    <!--main container start-->
+    <div class="main-container">
+    
+      <div style="width: 100%; height: 100%; background-color: black;">
+        <iframe style="width: 100%; height: 100%;" src="/Menu/Deneme"></iframe>
+      </div>
+
+    </div>
+    <!--main container end-->
+  </div>
+  <!--wrapper end-->
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".sidebar-btn").click(function () {
+        $(".wrapper").toggleClass("collapse");
+      });
+    });
+
+    function goToProfilePage() {
+            var teacherId = '@User.FindFirst(ClaimTypes.NameIdentifier).Value';
+            window.location.href = '/User/Profile?teacherid=' + teacherId;
+              }
+      function goToCatogoryPage() {
+                  window.location.href = '/Menu/Menu'; // Yönlendirilecek sayfanın adını buraya ekleyin
+              }
+      function goToWeatherPage() {
+                  window.location.href = '/Menu/HavaDurumu'; // Yönlendirilecek sayfanın adını buraya ekleyin
+              }
+      
+      // Türkiye saati için saat göstergesi
+      function updateTurkeyTime() {
+          var options = { timeZone: 'Europe/Istanbul', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+          var turkeyTime = new Date().toLocaleTimeString('tr-TR', options);
+          document.getElementById('turkey-time').textContent = turkeyTime;
+      }
+
+      // Sayfa yüklendiğinde ve her saniyede bir güncelle
+      document.addEventListener("DOMContentLoaded", function() {
+          updateTurkeyTime();
+          setInterval(updateTurkeyTime, 1000);
+      });
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var dateElement = document.getElementById("current-date");
+        var today = new Date();
+        var options = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = today.toLocaleDateString('tr-TR', options);
+      });
+                
+  </script>
+
+</body>
+
+</html>

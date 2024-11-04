@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\IlkSayfa.css",
+      "PackagePath": "staticwebassets\\css\\IlkSayfa.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\adamasmaca.css",
+      "PackagePath": "staticwebassets\\css\\adamasmaca.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\biliminsani.css",
+      "PackagePath": "staticwebassets\\css\\biliminsani.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\deneme.css",
+      "PackagePath": "staticwebassets\\css\\deneme.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\duygu.css",
+      "PackagePath": "staticwebassets\\css\\duygu.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\geometrik.css",
+      "PackagePath": "staticwebassets\\css\\geometrik.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\havadurumu.css",
+      "PackagePath": "staticwebassets\\css\\havadurumu.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\hesapmakinesi.css",
+      "PackagePath": "staticwebassets\\css\\hesapmakinesi.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\kayit-giris.css",
+      "PackagePath": "staticwebassets\\css\\kayit-giris.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\menu2.css",
+      "PackagePath": "staticwebassets\\css\\menu2.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\notekle.css",
+      "PackagePath": "staticwebassets\\css\\notekle.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\oyunlar.css",
+      "PackagePath": "staticwebassets\\css\\oyunlar.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\people.css",
+      "PackagePath": "staticwebassets\\css\\people.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\tahta.css",
+      "PackagePath": "staticwebassets\\css\\tahta.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\css\\todolist.css",
+      "PackagePath": "staticwebassets\\css\\todolist.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\5.png",
+      "PackagePath": "staticwebassets\\img\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\Euler.jpg",
+      "PackagePath": "staticwebassets\\img\\Euler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\Fibonacci.jpg",
+      "PackagePath": "staticwebassets\\img\\Fibonacci.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\Fourier.jpg",
+      "PackagePath": "staticwebassets\\img\\Fourier.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\IMG_20210531_150905_829 (1).jpg",
+      "PackagePath": "staticwebassets\\img\\IMG_20210531_150905_829 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\IMG_3317.jpg",
+      "PackagePath": "staticwebassets\\img\\IMG_3317.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\MAC.jpg",
+      "PackagePath": "staticwebassets\\img\\MAC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\Snapchat-1552231777.jpg",
+      "PackagePath": "staticwebassets\\img\\Snapchat-1552231777.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\adamasmaca.JPG",
+      "PackagePath": "staticwebassets\\img\\adamasmaca.JPG"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\ali.jpg",
+      "PackagePath": "staticwebassets\\img\\ali.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\arf.jpg",
+      "PackagePath": "staticwebassets\\img\\arf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\arsimet.jpg",
+      "PackagePath": "staticwebassets\\img\\arsimet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\biliminsanı.jpeg",
+      "PackagePath": "staticwebassets\\img\\biliminsanı.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\cark.jpeg",
+      "PackagePath": "staticwebassets\\img\\cark.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\c╠ğ2.jpeg",
+      "PackagePath": "staticwebassets\\img\\c╠ğ2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\descartes.jpg",
+      "PackagePath": "staticwebassets\\img\\descartes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\duygu.jpg",
+      "PackagePath": "staticwebassets\\img\\duygu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\emoji.gif",
+      "PackagePath": "staticwebassets\\img\\emoji.gif"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\fermat.jpg",
+      "PackagePath": "staticwebassets\\img\\fermat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\gauss.jpg",
+      "PackagePath": "staticwebassets\\img\\gauss.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\geometri.jpeg",
+      "PackagePath": "staticwebassets\\img\\geometri.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\hangman-0_1.svg",
+      "PackagePath": "staticwebassets\\img\\hangman-0_1.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\hangman-1.svg",
+      "PackagePath": "staticwebassets\\img\\hangman-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\hangman-2.svg",
+      "PackagePath": "staticwebassets\\img\\hangman-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\hangman-3.svg",
+      "PackagePath": "staticwebassets\\img\\hangman-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\hangman-4.svg",
+      "PackagePath": "staticwebassets\\img\\hangman-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\hangman-5.svg",
+      "PackagePath": "staticwebassets\\img\\hangman-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\hangman-6.svg",
+      "PackagePath": "staticwebassets\\img\\hangman-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\harezmi.jpg",
+      "PackagePath": "staticwebassets\\img\\harezmi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\hesapmakinesi.jpeg",
+      "PackagePath": "staticwebassets\\img\\hesapmakinesi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\laplace.jpg",
+      "PackagePath": "staticwebassets\\img\\laplace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\leg.jpg",
+      "PackagePath": "staticwebassets\\img\\leg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\leib.jpg",
+      "PackagePath": "staticwebassets\\img\\leib.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\liste.jpeg",
+      "PackagePath": "staticwebassets\\img\\liste.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\lost.gif",
+      "PackagePath": "staticwebassets\\img\\lost.gif"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\mick-haupt-zohyTq85mRE-unsplash.jpg",
+      "PackagePath": "staticwebassets\\img\\mick-haupt-zohyTq85mRE-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\new.jpg",
+      "PackagePath": "staticwebassets\\img\\new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\not.jpeg",
+      "PackagePath": "staticwebassets\\img\\not.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\oklid.jpg",
+      "PackagePath": "staticwebassets\\img\\oklid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\omer.jpg",
+      "PackagePath": "staticwebassets\\img\\omer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\oyunlar.jpeg",
+      "PackagePath": "staticwebassets\\img\\oyunlar.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\pascal.jpg",
+      "PackagePath": "staticwebassets\\img\\pascal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\pisagor.png",
+      "PackagePath": "staticwebassets\\img\\pisagor.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\pp.png",
+      "PackagePath": "staticwebassets\\img\\pp.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\pp1.png",
+      "PackagePath": "staticwebassets\\img\\pp1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\pp2.png",
+      "PackagePath": "staticwebassets\\img\\pp2.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\sop.jpg",
+      "PackagePath": "staticwebassets\\img\\sop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\tahta.jpeg",
+      "PackagePath": "staticwebassets\\img\\tahta.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\taylor.jpg",
+      "PackagePath": "staticwebassets\\img\\taylor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\thales.jpg",
+      "PackagePath": "staticwebassets\\img\\thales.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\todo.jpeg",
+      "PackagePath": "staticwebassets\\img\\todo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\victory.gif",
+      "PackagePath": "staticwebassets\\img\\victory.gif"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\img\\wave1.png",
+      "PackagePath": "staticwebassets\\img\\wave1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\adamasmaca.js",
+      "PackagePath": "staticwebassets\\js\\adamasmaca.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\biliminsani.js",
+      "PackagePath": "staticwebassets\\js\\biliminsani.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\duygular.js",
+      "PackagePath": "staticwebassets\\js\\duygular.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\havadurumu.js",
+      "PackagePath": "staticwebassets\\js\\havadurumu.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\hesapmakinesi.js",
+      "PackagePath": "staticwebassets\\js\\hesapmakinesi.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\kelimeler.js",
+      "PackagePath": "staticwebassets\\js\\kelimeler.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\motive.js",
+      "PackagePath": "staticwebassets\\js\\motive.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\notekle.js",
+      "PackagePath": "staticwebassets\\js\\notekle.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\script1.js",
+      "PackagePath": "staticwebassets\\js\\script1.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\tahta.js",
+      "PackagePath": "staticwebassets\\js\\tahta.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\Antique\\Matek\\Matek\\wwwroot\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\js\\todolist.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Matek.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Matek.props",
+      "PackagePath": "build\\Matek.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Matek.props",
+      "PackagePath": "buildMultiTargeting\\Matek.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Matek.props",
+      "PackagePath": "buildTransitive\\Matek.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

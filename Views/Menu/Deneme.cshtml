@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/deneme.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
+    </head>
+    <body>
+        <div class="container">
+            <div class="image-container">
+                <button class="portfolio-item" onclick="goToOgrenciPage()">
+                    <img src="../img/liste.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+                <button class="portfolio-item" onclick="goToNotePage()">
+                    <img src="../img/not.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+                <button class="portfolio-item" onclick="goToHesapPage()">
+                    <img src="../img/hesapmakinesi.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+                <button class="portfolio-item" onclick="goToTahtaPage()">
+                    <img src="../img/tahta.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+                <button class="portfolio-item" onclick="goToTodoPage()">
+                    <img src="../img/todo.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+                <button class="portfolio-item" onclick="goToGeometrikPage()">
+                    <img src="../img/geometri.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+                <button class="portfolio-item" onclick="goToOyunPage()">
+                    <img src="../img/oyunlar.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+                <button class="portfolio-item" onclick="goToDuyguPage()">
+                    <img src="../img/duygu.jpg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+                <button class="portfolio-item" onclick="goToBilimPage()">
+                    <img src="../img/biliminsanı.jpeg" alt="">
+                    <div class="overlay">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </button>
+            </div>
+
+        </div>
+        <script>
+            function goToNotePage() {
+                window.location.href = '/Menu/NotEkle'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+            function goToBilimPage() {
+                window.location.href = '/Menu/Biliminsani'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+            function goToHesapPage() {
+                window.location.href = '/Menu/HesapMakinesi'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+            function goToTodoPage() {
+                window.location.href = '/Menu/Liste'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+            function goToOgrenciPage(){
+                window.location.href = '/Menu/OgrenciListesi'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+            function goToGeometrikPage(){
+                window.location.href = '/Menu/GeometrikCisim'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+            function goToOyunPage(){
+                window.location.href = '/Menu/Oyunlar'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+            function goToDuyguPage(){
+                window.location.href = '/Menu/Duygular'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+            function goToTahtaPage(){
+                window.location.href = '/Menu/YaziTahtasi'; // Yönlendirilecek sayfanın adını buraya ekleyin
+            }
+
+        </script>
+
+    </body>
+</html>

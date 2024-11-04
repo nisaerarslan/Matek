@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Asmaca Oyunu</title>
+    <link rel="stylesheet" href="~/css/adamasmaca.css">
+    <!-- script -->
+    <script  src="~/js/kelimeler.js"  defer></script>
+    <script src="~/js/adamasmaca.js"  defer></script>
+</head>
+<body>
+    <div class="main">
+      <div class="game">
+        <div class="left">
+          <img class="img" src="../img/hangman-0_1.svg" />
+          <h1>ADAM ASMACA</h1>
+        </div>
+        <div class="right">
+          <ul class="kelime-display"></ul>
+          <h4>
+            İpucu:
+          </h4>
+          <p>
+            Yanlış Tahmin:
+            <span class="chance" style="color: red">0/6</span>
+          </p>
+          <div class="keyboard"></div>
+        </div>
+      </div>
+      <div class="GameOver">
+        <img class="gameoverImg" src="../img/lost.gif" />
+        <h3>Oyunu Kaybettin!</h3>
+        <h6>
+          Doğru Kelime:<span class="answer" style="color: red"
+            >
+          </span>
+        </h6>
+        <button onclick="location.reload()">TEKRAR DENE</button>
+      </div>
+    </div>
+
+</body>
+</html>
