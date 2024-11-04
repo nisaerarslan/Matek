@@ -1,0 +1,92 @@
+@keyframes colorChange {
+    0% {
+      background-color: #ff7c48;
+    }
+    33% {
+      background-color: #6fb3fb;
+    }
+    66% {
+      background-color: #e39bf6;
+    }
+    100% {
+      background-color: #d1f45f;
+    }
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10;
+    border: 250px solid transparent; /* Initially transparent */
+    border-radius: 50%; /* Makes the border elliptical */
+    box-sizing: border-box;
+    animation: borderChange 4s infinite; /* Animation for border color change */
+    position: relative; /* Ensures proper stacking of elements */
+    outline: 1000px solid transparent; /* Outline to create thickness */
+    outline-offset: -250px; /* Moves the outline outward */
+}
+
+@keyframes borderChange {
+    0% {
+        outline-color: rgba(224, 0, 0, 0.2); /* Red with transparency */
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); /* Red shadow */
+    }
+    33% {
+        outline-color: rgba(0, 255, 0, 0.2); /* Green with transparency */
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.4); /* Green shadow */
+    }
+    66% {
+        outline-color: rgba(0, 0, 255, 0.2); /* Blue with transparency */
+        box-shadow: 0 0 20px rgba(0, 0, 255, 0.4); /* Blue shadow */
+    }
+    100% {
+        outline-color: rgba(255, 0, 255, 0.2); /* Magenta with transparency */
+        box-shadow: 0 0 20px rgba(255, 0, 255, 0.4); /* Magenta shadow */
+    }
+}
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+  .container {
+    text-align: center;
+  }
+  
+  input[type="file"],
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="file"] {
+    color: #333;
+    border: 2px solid transparent;
+  }
+  
+  input[type="file"]:hover,
+  button:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
+  button {
+    color: white;
+    cursor: pointer;
+    animation: colorChange 4s infinite;
+    box-shadow: 0 4px #008CBA;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    box-shadow: 0 8px #008CBA;
+  }
